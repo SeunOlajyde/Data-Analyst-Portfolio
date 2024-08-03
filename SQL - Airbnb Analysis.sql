@@ -3,11 +3,13 @@
 
 -- I created a database (SQL-AirBnB) and this was followed by 3-tables creation.
 -- The table created were: 
-    1. airbnb_listings 
-    2. airbnb_rates 
-    3. airbnb_staff
+    -- 1. airbnb_listings 
+    -- 2. airbnb_rates 
+    -- 3. airbnb_staff
 
 -- See SQL queries for the creation og airbnb_rates and airbnb_staff table below. Same process were followed for airbnb_listings table.
+
+-- Tool Used: SQL Server
 
 -- Creating airbnb_rate table
 
