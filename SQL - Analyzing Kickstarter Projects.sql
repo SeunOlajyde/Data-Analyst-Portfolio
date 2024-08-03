@@ -67,18 +67,16 @@ LIMIT 10
 
 -- DETERMINING THE FUNDING STATUS
 
-  SELECT main_category, backers, pledged, goal,
-         pledged / goal AS pct_pledged,
-         CASE
-            WHEN pledged/goal >= 1 THEN 'Fully funded'
-            WHEN pledged/goal BETWEEN .75 AND 1 THEN 'Nearly funded'
-            ELSE 'Not nearly funded'
-         END AS funding_status
-    FROM ksprojects
-   WHERE state IN ('failed')
-     AND backers >= 100 AND pledged >= 20000
+SELECT main_category, backers, pledged, goal, pledged / goal AS pct_pledged,
+  CASE
+    WHEN pledged/goal >= 1 THEN 'Fully funded'
+    WHEN pledged/goal BETWEEN .75 AND 1 THEN 'Nearly funded'
+    ELSE 'Not nearly funded'
+  END AS funding_status
+FROM ksprojects
+WHERE state IN ('failed') AND backers >= 100 AND pledged >= 20000
 ORDER BY main_category, pct_pledged DESC
-   LIMIT 10;
+LIMIT 10;
 
 -- COMMENTS: Looking at the 10 failed art projects in this campaign, revealed that despite significant backing and pledges, couldn't reach their funding goals. These projects were mostly "nearly funded," suggesting failure was due to factors beyond financial support.
 
