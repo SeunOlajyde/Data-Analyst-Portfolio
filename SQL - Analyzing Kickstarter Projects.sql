@@ -1,22 +1,11 @@
 -- ANALYZING KICKSTARTER PROJECT FOR A STARTUP
 -- In this project, I am exploring the possibility of launching a Kickstarter campaign. 
 -- My mission is to analyze relevant data and uncover insights that will guide the product team in understanding the key factors contributing to a successful campaign. 
--- The product team want to know the market potential of some new products and I have been tasked with analyzing relevant data to identify factors that could contribute to a successful campaign.
+-- The product team wants to know the market potential of some new products. I have been tasked with analyzing relevant data to identify factors that could contribute to a successful campaign.
 
 -- As a result, I will answer 2 questions with the analysis below:
 -- 1. What types of projects are most likely to be successful?
 -- 2. Which projects fail?
-
--- The database consists of one table, ksprojects
--- The definitions of the columns in this data are listed below:
-  -- ID: Kickstarter project ID
-  -- name: Name of project
-  -- category: Category of project
-  -- main_category: Main category of project
-  -- goal: Fundraising goal
-  -- pledged: Amount pledged
-  -- state: State of project (successful, canceled, etc.)
-  -- backers: Number of project backers
 
 -- Tool used: SQLite
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
