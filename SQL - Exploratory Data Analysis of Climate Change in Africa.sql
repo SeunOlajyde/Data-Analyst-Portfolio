@@ -1,4 +1,4 @@
-/* Exploratory Data Analysis in SQL
+/* EXPLORATORY DATA ANALYSIS IN SQL - CLIMATE CHANGE IN AFRICA
 
 The data to be used is from a paper on Climate change adaptation innovation in the water sector in Africa. Dataset can be found here: https://data.mendeley.com/datasets/4f234mww6s/2. Journal can be found here: https://doi.org/10.1016/j.dib.2022.108782. The study in this paper analyzes the response of technology to water vulnerability created by climate change in Africa.
 
